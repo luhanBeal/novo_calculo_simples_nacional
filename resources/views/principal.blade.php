@@ -1,8 +1,14 @@
-<h1>Main page </h1>
+@extends('layouts.basic')
 
-<ul>
-    <li>
-        <a href="/" class="">Home</a>
-    </li>
+@section('titulo', 'Home')
 
-</ul>
+@section('conteudo')
+    <h1>Main page </h1>
+
+    <ul>
+        <li>
+            <a href="/" class="">Home</a>
+        </li>
+
+    </ul>
+@endsection

@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\PrincipalController::class, 'principal'])->name('main');
+Route::get('/', [App\Http\Controllers\PrincipalController::class, 'principal'])->name('index');
 
