@@ -7,15 +7,15 @@
 
         <div class="esquerda">
             <div class="informacoes">
-                <h1>Sistema Super Gestão</h1>
-                <p>Software para gestão empresarial ideal para sua empresa.<p>
+                <h1>Nova Calculadora Simples Nacional</h1>
+                <p>...<p>
                 <div class="chamada">
                     <img src="{{ asset('img/check.png') }}">
-                    <span class="texto-branco">Gestão completa e descomplicada</span>
+                    <span class="texto-branco">Lorem ipsum</span>
                 </div>
                 <div class="chamada">
                     <img src="{{ asset('img/check.png') }}">
-                    <span class="texto-branco">Sua empresa na nuvem</span>
+                    <span class="texto-branco">Loremmmmmmm</span>
                 </div>
             </div>
 
@@ -26,25 +26,36 @@
 
         <div class="direita">
             <div class="contato">
-                <h1>Contato</h1>
-                <p>Caso tenha qualquer dúvida por favor entre em contato com nossa equipe pelo formulário abaixo.<p>
+                <h1>Calcule aqui</h1>
+                <p>Preencha a calculadora seguindo os passos...<p>
                 <form>
-                    <input type="text" placeholder="Nome" class="borda-branca">
+                    <label>
+                        <input type="text" placeholder="sal12" class="borda-branca">
+                    </label>
                     <br>
-                    <input type="text" placeholder="Telefone" class="borda-branca">
+                    <label>
+                        <input type="text" placeholder="sal" class="borda-branca">
+                    </label>
                     <br>
-                    <input type="text" placeholder="E-mail" class="borda-branca">
+                    <label>
+                        <input type="text" placeholder="..." class="borda-branca">
+                    </label>
                     <br>
-                    <select class="borda-branca">
-                        <option value="">Qual o motivo do contato?</option>
-                        <option value="">Dúvida</option>
-                        <option value="">Elogio</option>
-                        <option value="">Reclamação</option>
-                    </select>
+                    <label>
+                        <select class="borda-branca">
+                            <option value="">AnexoI</option>
+                            <option value="">AnexoII</option>
+                            <option value="">AnexoIII</option>
+                            <option value="">AnexoIV</option>
+                            <option value="">AnexoV</option>
+                        </select>
+                    </label>
                     <br>
-                    <textarea class="borda-branca">Preencha aqui a sua mensagem</textarea>
+                    <label>
+                        <textarea class="borda-branca">temp</textarea>
+                    </label>
                     <br>
-                    <button type="submit" class="borda-branca">ENVIAR</button>
+                    <button type="submit" class="borda-branca">Calcular</button>
                 </form>
             </div>
         </div>
