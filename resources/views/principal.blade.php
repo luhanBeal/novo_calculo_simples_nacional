@@ -12,11 +12,11 @@
                 <p>...<p>
                 <div class="chamada">
                     <img src="{{ asset('img/check.png') }}">
-                    <span class="texto-branco">Lorem ipsum</span>
+                    <span class="texto-branco">Veja qual anexo sua empresa se encaixa</span>
                 </div>
                 <div class="chamada">
                     <img src="{{ asset('img/check.png') }}">
-                    <span class="texto-branco">Loremmmmmmm</span>
+                    <span class="texto-branco">(RBA12 x ALIQ) – PD / RBA12</span>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
         <div class="direita">
             <div class="contato">
                 <h1>Calcule aqui</h1>
-                <p>Preencha a calculadora com números decimais sem vígula ou ponto.<p>
+                <p>Preencha a calculadora sem vígula ou ponto.<p>
 {{--                Incluir o FORM da calculadora --}}
                 @component('layouts.calculadora')
                 @endcomponent
@@ -38,6 +38,9 @@
                 @elseif($erro==0)
                     <p>Fatura do mes: {{ $fatura_mes ?? '' }}</p>
                     <p>RBT12: {{ $rbt12 ?? '' }}</p>
+                    <p>Faixa: {{ $faixa ?? '' }}</p>
+                    <p>Aliquota: {{ $aliquota ?? '' }}</p>
+                    <p>Simples Total: {{ $simples_total ?? '' }}</p>
                 @endif
             </div>
         </div>

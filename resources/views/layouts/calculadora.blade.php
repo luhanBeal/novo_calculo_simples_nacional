@@ -12,11 +12,11 @@
     <label>
         <select name="anexo" class="borda-branca">
             <option value="none">Qual anexo sua empresa se encaixa?</option>
-            <option value="2">Anexo I</option>
-            <option value="1">Anexo II</option>
-            <option value="2">Anexo III</option>
-            <option value="3">Anexo VI</option>
-            <option value="4">Anexo V</option>
+            <option value="1">Anexo I</option>
+            <option value="2">Anexo II</option>
+            <option value="3">Anexo III</option>
+            <option value="4">Anexo IV</option>
+            <option value="5">Anexo V</option>
         </select>
     </label>
     <br>
