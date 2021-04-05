@@ -28,6 +28,10 @@ input, select, textarea, button {
     color: #333;
 }
 
+.erro {
+    color: #a8161d;
+}
+
 .texto-branco {
     color: #ffffff;
 }

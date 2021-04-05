@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\PrincipalController::class, 'principal'])->name('index');
+Route::post('/', [App\Http\Controllers\PrincipalController::class, 'validar'])->name('index');
+
 
